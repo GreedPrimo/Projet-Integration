@@ -24,6 +24,8 @@
 									<span class="image jimg-350">
 										<img src=<?php echo "'" . (utf8_encode($row["imgArt1"])) . "'"; ?> alt="" />
 									</span>
+
+									ypyp
 									<a href=<?php echo "'" . "product.php?product=". $row["codeArt"] . "'"; ?>>
 										<h2><?php echo(utf8_encode($row["designArt"])); ?></h2>
 										<div class="content">
